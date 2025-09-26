@@ -1,0 +1,10 @@
+{
+  "best_algorithm": "RandomForestClassifier",
+  "parameters": {
+    "model__max_depth": null,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 100
+  },
+  "val_accuracy": 0.7872531418312387,
+  "test_accuracy": 0.8150807899461401
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "algorithm": "LogisticRegression",
+    "best_params": {
+      "model__C": 1.0,
+      "model__penalty": "l2",
+      "model__solver": "lbfgs"
+    },
+    "val_accuracy": 0.7504,
+    "test_accuracy": 0.7675
+  },
+  {
+    "algorithm": "RandomForestClassifier",
+    "best_params": {
+      "model__max_depth": null,
+      "model__min_samples_split": 2,
+      "model__n_estimators": 100
+    },
+    "val_accuracy": 0.7873,
+    "test_accuracy": 0.8151
+  },
+  {
+    "algorithm": "SVC",
+    "best_params": {
+      "model__C": 1.0,
+      "model__gamma": "scale",
+      "model__kernel": "rbf"
+    },
+    "val_accuracy": 0.7801,
+    "test_accuracy": 0.7998
+  },
+  {
+    "algorithm": "KNeighborsClassifier",
+    "best_params": {
+      "model__n_neighbors": 10,
+      "model__p": 2,
+      "model__weights": "uniform"
+    },
+    "val_accuracy": 0.7226,
+    "test_accuracy": 0.7527
+  }
+]

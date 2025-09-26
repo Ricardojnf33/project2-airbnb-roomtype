@@ -1,0 +1,12 @@
+Best Model: RandomForestClassifier
+Parameters: {'model__max_depth': None, 'model__min_samples_split': 2, 'model__n_estimators': 100}
+
+                 precision    recall  f1-score   support
+
+Entire home/apt       0.85      0.85      0.85      1000
+   Private room       0.77      0.86      0.81      1000
+    Shared room       0.91      0.45      0.60       228
+
+       accuracy                           0.82      2228
+      macro avg       0.84      0.72      0.76      2228
+   weighted avg       0.82      0.82      0.81      2228
